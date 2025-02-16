@@ -91,6 +91,7 @@ body {
 
 /* ------------ HERO---------------- */
 .hero {
+    position: relative;
     padding-top: 219px;
     padding-bottom: 213px;
     background-color: #8A7B60;
