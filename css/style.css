@@ -185,7 +185,7 @@ font-weight: bold;
 }
 /* ////////End INFO------------- */
 /* ------------NOTE------------- */
-.note-container {
+.note {
     position: relative;
     overflow: hidden;
 }
@@ -193,7 +193,7 @@ font-weight: bold;
     display: flex;
     align-items: center
 }
-.note {
+.note__item {
     position: relative;
     left: -100%;
     padding: 70px 0 71px;
