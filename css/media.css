@@ -220,13 +220,16 @@
 
 @media (max-width: 930px) {
     .note {
+        padding: 0;
+    }
+    .note__item {
         padding-top: 70px;
         padding-bottom: 72px;
     }
 }
 
 @media (max-width: 610px) {
-    .note {
+    .note__item {
         padding-top: 32px;
         padding-bottom: 32px;
     }
