@@ -185,12 +185,17 @@ font-weight: bold;
 }
 /* ////////End INFO------------- */
 /* ------------NOTE------------- */
+.note-container {
+    position: relative;
+    overflow: hidden;
+}
 .note__wrapper {
     display: flex;
     align-items: center
 }
 .note {
     position: relative;
+    left: -100%;
     padding: 70px 0 71px;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -201,11 +206,29 @@ font-weight: bold;
     background-color: #0A3B93;
     overflow: hidden;
     z-index: 10;
+    transition: left .5s ease;
 }
+
+.note--active {
+    left: 0!important;
+}
+
+.note--more {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+}
+
 .note__description {
+    display: flex;
+    align-items: center;
     max-width: 676px;
+    min-height: 109px;
 }
 .note__btn {
+    position: relative;
+    z-index: 100;
     background-image: url(../images/more-btn-bg.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -218,6 +241,10 @@ font-weight: bold;
     opacity: .5;
 }
 
+.note__btn--rotate {
+    transform: rotate(180deg);
+}
+
 .note__decor {
     position: absolute;
     background-image: url("../images/decor-blue.svg");
@@ -228,7 +255,7 @@ font-weight: bold;
     height: 322px;
     right: -6px;
     bottom: -148px;
-    z-index: -1;
+    z-index: 100;
 }
 /* ////////End NOTE------------- */
 
