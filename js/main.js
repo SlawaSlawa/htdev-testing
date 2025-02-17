@@ -89,3 +89,20 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     })
 })
+
+// NOTE
+
+const noteEl = document.getElementById('note')
+const noteMoreEl = document.getElementById('note-more')
+const noteBtn = document.getElementById('note-btn')
+const noteBtnRotate = document.getElementById('note-btn-rotate')
+
+noteBtn.addEventListener('click', () => {
+    noteEl.classList.remove('note--active')
+    noteMoreEl.classList.add('note--active')
+})
+
+noteBtnRotate.addEventListener('click', () => {
+    noteEl.classList.add('note--active')
+    noteMoreEl.classList.remove('note--active')
+})

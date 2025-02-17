@@ -220,26 +220,30 @@
 
 @media (max-width: 930px) {
     .note {
+        padding: 0;
+    }
+    .note__item {
         padding-top: 70px;
         padding-bottom: 72px;
     }
 }
 
 @media (max-width: 610px) {
-    .note {
+    .note__item {
         padding-top: 32px;
         padding-bottom: 32px;
     }
     .note__description {
         font-size: 16px;
         line-height: 20px;
+        min-height: auto;
     }
     .note__btn {
         font-family: Arial, Helvetica, sans-serif;
         width: 22px;
         height: 28px;
         margin-right: 28px;
-        background-size: cover;
+        background-size: 100% 100%;
     }
     .note__decor {
         width: 179px;
