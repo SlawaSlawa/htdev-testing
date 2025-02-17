@@ -83,6 +83,7 @@ body {
     width: 267px;
     height: 103px;
     background-color: #0A398A; 
+    z-index: 10;
 }
 .logo__img {
     width: 100%;
