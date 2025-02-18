@@ -217,6 +217,11 @@
 }
 /* ----------------End INFO------------------ */
 /* ----------------NOTE------------------ */
+@media (max-width: 1249px) {
+    .note__decor {
+        right: -286px;
+    }
+}
 
 @media (max-width: 930px) {
     .note {
@@ -230,6 +235,7 @@
 
 @media (max-width: 610px) {
     .note__item {
+        min-height: 144px;
         padding-top: 32px;
         padding-bottom: 32px;
     }
