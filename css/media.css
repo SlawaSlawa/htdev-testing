@@ -235,7 +235,6 @@
 
 @media (max-width: 610px) {
     .note__item {
-        min-height: 144px;
         padding-top: 32px;
         padding-bottom: 32px;
     }
