@@ -455,6 +455,7 @@
     }
     .presentation__item {
         max-width: 748px;
+        height: 294px;
     }
     .presentation__decor-up {
         top: 22px;
@@ -468,7 +469,7 @@
         width: 458px;  
     }
     .presentation__description {
-        padding: 16px 32px 16px 49px;
+        padding: 16px 32px 19px 49px;
     }
     .presentation__item--reverse {
         max-width: 689px;
@@ -486,6 +487,9 @@
     .presentation__desc-block-description--left {
         margin-top: 19px;
         margin-bottom: 12px;
+    }
+    .presentation__numbers {
+        margin-top: 1px;
     }
 }
 

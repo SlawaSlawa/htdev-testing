@@ -590,8 +590,9 @@ font-weight: bold;
 }
 
 .presentation__img-block {
-    width: 565px;
+    width: 566px;
 }
+
 .presentation__img {
     object-fit: cover;
     object-position: 0 0;
